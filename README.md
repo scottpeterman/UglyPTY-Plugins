@@ -51,10 +51,10 @@ You can extend the catalog by simply adding more entries to the `catalog.yaml` f
 Here are some snapshots of UglyPTY-Plugins in action:
 
 <div align="center">
-  <img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/uglydark.PNG" alt="UglyPTY Dark" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/uglylight.png" alt="UglyPTY Light Splash" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/darklight.png" alt="UglyPTY darklight" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/lightdark.png" alt="UglyPTY Lightdark" width="400px">
+  <img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="UglyPTY Light Splash" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="UglyPTY darklight" width="400px">
+  
 </div>
 
 ## Download More Plugins
