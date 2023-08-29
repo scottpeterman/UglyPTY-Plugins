@@ -1,0 +1,8 @@
+plugins:
+  - name: "Ugly Collector Widget"
+    package_name: "uglyplugin_collector"
+    description: "A widget for collecting CLI output via Netmiko."
+    import_name: "uglyplugin_collector.collect_gui_netmiko.CollectorForm"
+    version: "0.1.0"
+    source_type: "wheel"
+    wheel_url: "./wheels/uglyplugin_collector-0.1.0-py3-none-any.whl"
