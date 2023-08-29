@@ -1,0 +1,2 @@
+recursive-include uglyplugin_ace/ace *
+recursive-include uglyplugin_ace/Library *
