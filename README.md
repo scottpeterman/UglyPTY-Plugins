@@ -48,8 +48,8 @@ You can extend the catalog by simply adding more entries to the `catalog.yaml` f
 
 ## Download More Plugins
 
-You can download more `.whl` plugins from [github](https://github.com/scottpeterman/UglyPTY-Plugins.
-You can download more `.whl` plugins from [wheels](https://github.com/scottpeterman/UglyPTY-Plugins.
+You can download more `.whl` plugins from [github](https://github.com/scottpeterman/UglyPTY-Plugins).
+You can download more `.whl` plugins from [wheels](https://github.com/scottpeterman/UglyPTY-Plugins/tree/main/wheels).
 
 ---
 
