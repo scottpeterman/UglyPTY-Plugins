@@ -1,0 +1,187 @@
+keyword
+service
+timestamps
+debug
+datetime
+localtime
+version
+password-encryption
+hostname
+boot system
+logging buffered
+enable secret
+aaa new-model
+aaa group
+aaa authentication
+aaa authorization
+aaa accounting
+aaa session-id
+clock timezone
+clock summer-time
+ip nbar
+source-server
+schedule
+ip flow-cache
+ip domain name
+ip cef
+ipv6
+flow record
+description
+ipv4
+match
+protocol
+source
+destination
+address
+address-family
+collect
+next-hop
+transport
+counter
+flow sampler
+flow exporter
+template
+option
+interface-table
+exporter-stats
+application-table
+flow monitor
+cache timeout
+record
+multilink
+crypto pki
+certificate
+license
+username
+privilege
+secret
+class-map
+match-any
+match protocol
+policy-map
+class
+priority
+set ip
+remaining percent
+bandwidth
+random-detec
+shape average
+fair-queue
+service-policy
+interface
+passive-interface
+ip address
+no ip address
+shutdown
+no shutdown
+duplex auto
+speed auto
+media-type
+no ip address
+no ip redirects
+no ip proxy-arp
+encapsulation
+ip flow monitor
+no cdp enable
+cdp enable
+cdp run
+router eigrp
+router ospf
+router bgp
+router isis
+router-id
+bgp log-neighbor-changes
+network
+mask
+switchport mode trunk
+switchport mode
+switchport
+channel
+channel-group
+port-channel
+trunk
+allowed
+permit
+deny
+any
+pim
+vrrp
+hsrp
+standby
+vpc
+lacp
+pagp
+tacacs
+tacacs+
+interface-vlan
+distribute
+redistribute
+eigrp
+telnet
+ssh
+server
+host
+event
+line console
+session-limit
+level
+udld
+dhcp
+vtp
+domain
+cfs
+port
+vrf
+line
+line-console
+boot
+boot system
+aggregate-address
+redistribute
+bgp
+ospf
+rip
+eigrp
+isis
+route-map
+soft-reconfiguration
+local-as
+remote-as
+inbound
+outbound
+prefix-list
+neighbor
+weight
+access-list
+ip http server
+ip http secure-server
+source-interface
+loopback
+ip route
+http client
+ip ssh
+ip access-list
+permit
+deny
+ip prefix-list
+logging host
+seq
+snmp-server
+traps
+errdisable
+tacacs server
+tacacs-server
+radius server
+keyword
+control-plane
+banner motd
+line con
+line aux
+line vty
+logging
+login
+transport input
+transport output
+scheduler
+ntp server
+ntp source
