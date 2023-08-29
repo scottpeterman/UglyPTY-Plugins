@@ -53,4 +53,4 @@ You can download more `.whl` plugins from [wheels](https://github.com/scottpeter
 
 ---
 
-For more details or support, visit our [documentation](#) or [community forums](#).
+For more details or support, visit our [documentation](#).
