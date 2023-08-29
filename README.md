@@ -46,6 +46,17 @@ The following columns are used in the `installed_plugins` table:
 
 You can extend the catalog by simply adding more entries to the `catalog.yaml` file following the format shown above. After updating `catalog.yaml`, you may need to refresh the Plugin Manager UI to see the new entries.
 
+## Screenshots
+
+Here are some snapshots of UglyPTY-Plugins in action:
+
+<div align="center">
+  <img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/uglydark.PNG" alt="UglyPTY Dark" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/uglylight.png" alt="UglyPTY Light Splash" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/darklight.png" alt="UglyPTY darklight" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY/blob/main/screen_shots/lightdark.png" alt="UglyPTY Lightdark" width="400px">
+</div>
+
 ## Download More Plugins
 
 You can download more `.whl` plugins from [github](https://github.com/scottpeterman/UglyPTY-Plugins).
