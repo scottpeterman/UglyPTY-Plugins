@@ -64,7 +64,7 @@ This project is designed to run specific commands on network devices and collect
 
 ### Device Configuration Templating and Parsing with Jinja2 and TTP with query testing for JMESPath
 
-This plugin is both a test tool, as well as provides examples and guidelines for using Jinja2 templates for Cisco device configurations and Text Template Parser (TTP) for parsing Cisco CLI outputs.
+This plugin is both a test tool, as well as provides examples and guidelines for using Jinja2 templates for Network device configurations and Text Template Parser (TTP) for parsing Network Device CLI outputs.
 
 <div align="center"> <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px"></div>
 
