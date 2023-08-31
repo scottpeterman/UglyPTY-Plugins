@@ -1,0 +1,11 @@
+- folder_name: 0 - Linux
+  sessions:
+  - DeviceType: Linux
+    Model: ''
+    SerialNumber: ''
+    SoftwareVersion: ''
+    Vendor: Ubuntu
+    credsid: '1'
+    display_name: UB1
+    host: ub1.local
+    port: '22'

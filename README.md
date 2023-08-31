@@ -52,8 +52,9 @@ Here are some snapshots of UglyPTY-Plugins in action:
 
 <div align="center">
   <img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="UglyPTY Light Splash" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="UglyPTY darklight" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px">
+  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px">
+    <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px">
   
 </div>
 
