@@ -1,6 +1,11 @@
 # UglyPTY Plugins
 
-This directory is dedicated to managing and registering plugins for the UglyPTY application. Plugins are Python packages that are distributed as `.whl` (Wheel) files.
+This directory is dedicated to managing and registering plugins for the UglyPTY application. Plugins are Python packages that are distributed as `.whl` (Wheel) files. Some of them are purly standalone functionality. Others benefit from UglyPTY's base functionality.
+
+## Why?
+
+The whole point of the UglyPTY project is not to solve every problem, but to provide a platform based on the tool network engineers use most - an SSH Terminal. Developers like text editors with add-on capabilites, this is just the equivilent for CLI focused engineers. Nothing in these plugins is supper special, I just wanted to provide enough examples that others could create there own tools. Both the usable .whl files, as well as original source code are included in the repo. These are all beta tools, be careful ;)
+
 
 ## Getting Started
 
@@ -58,7 +63,39 @@ The PyQt6 Windows Terminal Widget provides a terminal interface within a PyQt6 a
 
 ### Netmiko Threaded GUI Collector Description
 
-This project is designed to run specific commands on network devices and collect their output. It's an ideal tool for network administrators who want to automate the process of gathering data from multiple network devices. The credentials used for connecting to the network devices are sourced from the same database as UglyPTY session files, with encrypted passwords. The collected data can be used for search and audit functions, as well as drive other automation.
+This project is designed to run specific commands on network devices and collect their output. It's an ideal tool for network administrators who want to automate the process of gathering data from multiple network devices. The credentials used for connecting to the network devices are sourced from the same database as UglyPTY session files, with encrypted passwords. The collected data can be used for search and audit functions, as well as drive other automation. The CLI output result is stored in both a structured yaml file, and a raw text file. The meta-data in the yaml file can enable autiting, searching or other automations.
+
+ - Example Structured Data
+ ```text
+ device:
+  command: show lldp info remote-device detail
+  credsid: 1
+  device_type: hp_procurve
+  display_name: retail-swl-01
+  folder_name: r1
+  host: 10.100.10.1
+  timestamp: 2023-08-07 11:39
+  username: autoadmin
+output: "\n\n LLDP Remote Device Information Detail\n\n  Local Port   : 1\n  ChassisType\
+  \  : mac-address         \n  ChassisId    : 0010f3-879897            \n  PortType\
+  \     : mac-address                                               \n  PortId   \
+  \    : 00 10 f3 87 98 97                                         \n  SysName   \
+  \   :                                 \n  System Descr :                       \
+  \                                      \n  PortDescr    :                      \
+  \                                       \n  Pvid         :                     \
+  \     \n\n  System Capabilities Supported  : \n  System Capabilities Enabled   \
+  \ : \n\n  Remote Management Address\n\n  MED Information Detail \n    EndpointClass\
+  \          :Class1\n\n------------------------------------------------------------------------------\n\
+  \  Local Port   : 3\n  ChassisType  : mac-address         \n  ChassisId    : 0010f3-8797f3\
+  \            \n  PortType     : mac-address                                    \
+  \           \n  PortId       : 00 10 f3 87 97 f3                               \
+  \          \n  SysName      :                                 \n  System Descr :\
+  \                                                             \n  PortDescr    :\
+  \                                                             \n  Pvid         :\
+  \                          \n\n  System Capabilities Supported  : \n  System Capabilities\
+  \ Enabled    : \n\n  Remote Management Address\n\n  MED Information Detail \n  \
+  status: success
+```
 
 <div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px"></div>
 
