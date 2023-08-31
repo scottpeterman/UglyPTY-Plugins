@@ -70,7 +70,7 @@ This plugin is both a test tool, as well as provides examples and guidelines for
 
 ### Click Automated Front End
 
-This plugin loads a Click based cli script. It then renders a dynamic form based on the click parameters and allows the user to run the script and see the results realtime streamed to the GUI. I quick way to put a front end on a script.
+This plugin loads a Click based cli script. It then renders a dynamic form based on the click parameters and allows the user to run the script and see the results realtime streamed to the GUI. A useful and quick way to put a front end on a script.
 
 <div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
  
