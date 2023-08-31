@@ -50,13 +50,31 @@ You can extend the catalog by simply adding more entries to the `catalog.yaml` f
 
 Here are some snapshots of UglyPTY-Plugins in action:
 
-<div align="center">
-  <img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px">
-  <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px">
-    <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px">
-  
-</div>
+### Terminal Widget Description
+
+The PyQt6 Windows Terminal Widget provides a terminal interface within a PyQt6 application that can interact with different shells such as cmd, PowerShell, or Windows Subsystem for Linux (WSL2). Users can execute shell commands directly from this widget.
+
+<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px"></div>
+
+### Netmiko Threaded GUI Collector Description
+
+This project is designed to run specific commands on network devices and collect their output. It's an ideal tool for network administrators who want to automate the process of gathering data from multiple network devices. The credentials used for connecting to the network devices are sourced from the same database as UglyPTY session files, with encrypted passwords. The collected data can be used for search and audit functions, as well as drive other automation.
+
+<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px"></div>
+
+### Device Configuration Templating and Parsing with Jinja2 and TTP with query testing for JMESPath
+
+This plugin is both a test tool, as well as provides examples and guidelines for using Jinja2 templates for Cisco device configurations and Text Template Parser (TTP) for parsing Cisco CLI outputs.
+
+<div align="center"> <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px"></div>
+
+### Click Automated Front End
+
+This plugin loads a Click based cli script. It then renders a dynamic form based on the click parameters and allows the user to run the script and see the results realtime streamed to the GUI. I quick way to put a front end on a script.
+
+<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
+ 
+
 
 ## Download More Plugins
 
