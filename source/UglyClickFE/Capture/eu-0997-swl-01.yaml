@@ -1,0 +1,16 @@
+device:
+  credsid: 1
+  display_name: eu-0997-swl-01
+  folder_name: 00 - retail-lab
+  host: 10.200.14.10
+output: |+
+  TCP connection to device failed.
+
+  Common causes of this problem are:
+  1. Incorrect hostname or IP address.
+  2. Wrong TCP port.
+  3. Intermediate firewall blocking access.
+
+  Device settings: cisco_ios 10.200.14.10:22
+
+status: success

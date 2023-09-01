@@ -1,0 +1,36 @@
+arguments:
+  max-job-size:
+    default: 10
+    help: Maximum job size
+    type: int
+  yaml-file:
+    default: ./sessions/sessions.yaml
+    help: Path to the sessions YAML file
+    type: str
+  include:
+    help: Strings to include
+    type: str
+  exclude:
+    help: Strings to exclude
+    type: str
+  netmiko-type:
+    default: cisco_ios
+    help: Netmiko device type
+    type: str
+    choices: [cisco_ios, arista_eos, junos]
+  output-dir:
+    default: ./Capture
+    help: Output directory
+    type: str
+  command:
+    default: show run
+    help: Command to run
+    type: str
+  user:
+    default: 1
+    help: User ID from settings.sqlite creds table
+    type: int
+  requires-enable:
+    default: false
+    help: Requires enable mode
+    type: bool

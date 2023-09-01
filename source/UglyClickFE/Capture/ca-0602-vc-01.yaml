@@ -1,0 +1,16 @@
+device:
+  credsid: '2'
+  display_name: ca-0602-vc-01
+  folder_name: ca-0602
+  host: 10.201.80.7
+output: |+
+  TCP connection to device failed.
+
+  Common causes of this problem are:
+  1. Incorrect hostname or IP address.
+  2. Wrong TCP port.
+  3. Intermediate firewall blocking access.
+
+  Device settings: cisco_ios 10.201.80.7:22
+
+status: success

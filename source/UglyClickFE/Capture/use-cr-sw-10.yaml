@@ -1,0 +1,16 @@
+device:
+  credsid: '1'
+  display_name: use-cr-sw-10
+  folder_name: use
+  host: 10.35.190.14
+output: |+
+  TCP connection to device failed.
+
+  Common causes of this problem are:
+  1. Incorrect hostname or IP address.
+  2. Wrong TCP port.
+  3. Intermediate firewall blocking access.
+
+  Device settings: cisco_ios 10.35.190.14:22
+
+status: success

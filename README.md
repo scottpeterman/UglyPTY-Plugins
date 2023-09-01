@@ -55,6 +55,12 @@ You can extend the catalog by simply adding more entries to the `catalog.yaml` f
 
 Here are some snapshots of UglyPTY-Plugins in action:
 
+### Serial Terminal Widget Description
+
+The PyQt6 Serial Terminal Widget provides a terminal interface over a com port. Network Engineers need console cable support!
+
+<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/serial.png" alt="UglyPTY Serial Console" width="400px"></div>
+
 ### Terminal Widget Description
 
 The PyQt6 Windows Terminal Widget provides a terminal interface within a PyQt6 application that can interact with different shells such as cmd, PowerShell, or Windows Subsystem for Linux (WSL2). Users can execute shell commands directly from this widget.

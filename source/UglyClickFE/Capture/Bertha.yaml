@@ -1,0 +1,16 @@
+device:
+  credsid: '6'
+  display_name: Bertha
+  folder_name: 0 - Linux
+  host: bertha.columbia.csc
+output: |+
+  TCP connection to device failed.
+
+  Common causes of this problem are:
+  1. Incorrect hostname or IP address.
+  2. Wrong TCP port.
+  3. Intermediate firewall blocking access.
+
+  Device settings: cisco_ios bertha.columbia.csc:22
+
+status: success

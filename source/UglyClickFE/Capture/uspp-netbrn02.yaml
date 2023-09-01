@@ -1,0 +1,16 @@
+device:
+  credsid: '4'
+  display_name: uspp-netbrn02
+  folder_name: 0 - Linux
+  host: 10.45.149.180
+output: |+
+  TCP connection to device failed.
+
+  Common causes of this problem are:
+  1. Incorrect hostname or IP address.
+  2. Wrong TCP port.
+  3. Intermediate firewall blocking access.
+
+  Device settings: cisco_ios 10.45.149.180:22
+
+status: success
