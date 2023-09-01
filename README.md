@@ -59,13 +59,13 @@ Here are some snapshots of UglyPTY-Plugins in action:
 
 The PyQt6 Serial Terminal Widget provides a terminal interface over a com port. Network Engineers need console cable support!
 
-<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/serial.png" alt="UglyPTY Serial Console" width="400px"></div>
+<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/serial.png" alt="UglyPTY Serial Console" width="400px"></div>
 
 ### Terminal Widget Description
 
 The PyQt6 Windows Terminal Widget provides a terminal interface within a PyQt6 application that can interact with different shells such as cmd, PowerShell, or Windows Subsystem for Linux (WSL2). Users can execute shell commands directly from this widget.
 
-<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px"></div>
+<div align="center"><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/UglyConsole.png" alt="UglyPTY Console" width="400px"></div>
 
 ### Netmiko Threaded GUI Collector Description
 
@@ -103,19 +103,19 @@ output: "\n\n LLDP Remote Device Information Detail\n\n  Local Port   : 1\n  Cha
   status: success
 ```
 
-<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px"></div>
+<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/UglyCollector.png" alt="Netmiko based GUI cli collector for Netmiko" width="400px"></div>
 
 ### Device Configuration Templating and Parsing with Jinja2 and TTP with query testing for JMESPath
 
 This plugin is both a test tool, as well as provides examples and guidelines for using Jinja2 templates for Network device configurations and Text Template Parser (TTP) for parsing Network Device CLI outputs.
 
-<div align="center"> <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px"></div>
+<div align="center"> <hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/UglyParser.png" alt="TTP, Jinja and JMESPath util" width="400px"></div>
 
 ### Click Automated Front End
 
 This plugin loads a Click based cli script. It then renders a dynamic form based on the click parameters and allows the user to run the script and see the results realtime streamed to the GUI. A useful and quick way to put a front end on a script.
 
-<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/blob/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
+<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
  
 
 
