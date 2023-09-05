@@ -117,7 +117,11 @@ This plugin loads a Click based cli script. It then renders a dynamic form based
 
 <div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/clickfe.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
  
+### Netbox to UglyPTY Session Exporter
 
+Using pynetbox, utility exports sites and devices from Netbox DCIM and renders them as a UglyPTY Session file. Instantly populates your sessions from your CMDB
+
+<div align="center"><hr><img src="https://github.com/scottpeterman/UglyPTY-Plugins/raw/main/screen_shots/nbexport.png" alt="Front End dynamic forms for click scripts" width="400px"></div>
 
 ## Download More Plugins
 
