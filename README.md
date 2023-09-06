@@ -125,7 +125,7 @@ Using pynetbox, utility exports sites and devices from Netbox DCIM and renders t
 
 ## Download More Plugins
 
-  1. A lightweight TFTP Server plugin
+  1. A lightweight TFTP Server plugin for network device image upgrades
   2. A Yaml browser companion for view and search of the Netmiko CLI Collector structured data results
 
 You can download more `.whl` plugins from [github](https://github.com/scottpeterman/UglyPTY-Plugins).
