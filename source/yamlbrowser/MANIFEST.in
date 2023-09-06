@@ -1,0 +1,2 @@
+recursive-include uglyplugin_tftp *
+recursive-include uglyplugin_tftp/icons *
