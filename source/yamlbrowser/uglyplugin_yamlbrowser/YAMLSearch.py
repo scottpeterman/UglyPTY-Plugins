@@ -2,7 +2,7 @@ import sys
 import os
 import yaml
 import re
-from PyQt6.QtWidgets import QApplication, QTextBrowser, QTabWidget, QWidget, QMessageBox, QSplitter
+from PyQt6.QtWidgets import QApplication, QTextBrowser, QTabWidget, QWidget, QMessageBox, QSplitter, QStyleFactory
 from PyQt6.QtWidgets import QFormLayout
 from PyQt6.QtWidgets import QDialog, QLabel, QLineEdit, QVBoxLayout, QPushButton
 from PyQt6.QtCore import pyqtSignal
@@ -37,10 +37,10 @@ class YAMLViewer(QWidget):
 
         self.main_layout = QVBoxLayout(self)
 
-        self.search_button = QPushButton("Search", self)
-        self.search_button.clicked.connect(self.open_search_dialog)
-        self.search_button.setMaximumWidth(200)
-        self.main_layout.addWidget(self.search_button)
+        # self.search_button = QPushButton("Search", self)
+        # self.search_button.clicked.connect(self.open_search_dialog)
+        # self.search_button.setMaximumWidth(200)
+        # self.main_layout.addWidget(self.search_button)
 
         self.search_string = None
         self.splitter = QSplitter(self)
@@ -163,10 +163,10 @@ class YAMLViewer(QWidget):
                 self.open_files[file_path] = tab_index - 1
 
 if __name__ == "__main__":
-    import qdarktheme
+    # import qdarktheme
 
     app = QApplication(sys.argv)
-    # app.setStyle(QStyleFactory.create("Fusion"))
+    app.setStyle(QStyleFactory.create("Fusion"))
     window = YAMLViewer()
     window.show()
     sys.exit(app.exec())

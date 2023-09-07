@@ -23,11 +23,11 @@ class FileTree(QWidget):
         self.button_layout.addWidget(self.button)
 
         # Add a Refresh button
-        self.refresh_button = QPushButton(self)
-        self.refresh_button.setMaximumWidth(30)
-        self.refresh_button.setIcon(QIcon("./icons/refresh.png"))  # Set the icon
-        self.refresh_button.clicked.connect(self.refresh_tree)
-        self.button_layout.addWidget(self.refresh_button)
+        # self.refresh_button = QPushButton(self)
+        # self.refresh_button.setMaximumWidth(30)
+        # self.refresh_button.setIcon(QIcon("./icons/refresh.png"))  # Set the icon
+        # self.refresh_button.clicked.connect(self.refresh_tree)
+        # self.button_layout.addWidget(self.refresh_button)
 
         # Add the horizontal layout to the main layout
         self.layout.addLayout(self.button_layout)
