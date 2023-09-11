@@ -125,9 +125,12 @@ Using pynetbox, utility exports sites and devices from Netbox DCIM and renders t
 
 ## Download More Plugins
 
+  1. A lightweight TFTP Server plugin for network device image upgrades
+  2. A Yaml browser companion for view of the Netmiko CLI Collector structured data results
+
 You can download more `.whl` plugins from [github](https://github.com/scottpeterman/UglyPTY-Plugins).
 You can download more `.whl` plugins from [wheels](https://github.com/scottpeterman/UglyPTY-Plugins/tree/main/wheels).
 
 ---
-
-For more details or support, visit our [documentation](#).
+# Create a source distribution and a wheel
+python setup.py sdist bdist_wheel
